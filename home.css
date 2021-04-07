@@ -1,0 +1,586 @@
+*{
+	box-sizing: border-box;
+	}
+  .box-main {
+    width: 70%;
+    height: 200px;
+    margin: 20px auto;
+  }
+
+	.secondHalf {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.image {
+  position: relative;
+  top: 0;
+  left: 0;
+  opacity: 0.9;
+}
+
+/* FIRST ROW */
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+
+@media only screen and (min-width: 1200px) {
+	.image1_1 {
+  position: absolute;
+  top: 75px;
+  left: 120px;
+  width:150px; 
+  height:210px;
+
+}
+	
+  .image1_2 {
+  position: absolute;
+  top: 75px;
+  left: 310px;
+  width:150px; 
+  height:210px;
+}
+
+.image1_3 {
+  position: absolute;
+  top: 75px;
+  left: 490px;
+  width:150px; 
+  height:210px;
+}
+.image1_4 {
+  position: absolute;
+  top: 75px;
+  left: 670px;
+  width:150px; 
+  height:210px;
+}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+	.image1_1 {
+  position: absolute;
+  top: 60px;
+  left: 85px;
+  width:110px; 
+  height:150px;
+
+}
+	
+  .image1_2 {
+  position: absolute;
+  top: 60px;
+  left: 220px;
+  width:110px; 
+  height:150px;
+}
+
+.image1_3 {
+  position: absolute;
+  top: 60px;
+  left: 350px;
+  width:110px; 
+  height:150px;
+}
+.image1_4 {
+  position: absolute;
+  top: 60px;
+  left: 490px;
+  width:110px; 
+  height:150px;
+}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px)  and (max-width: 991px) {
+	.image1_1 {
+  position: absolute;
+  top: 50px;
+  left: 80px;
+  width:80px; 
+  height:110px;
+
+}
+	
+  .image1_2 {
+  position: absolute;
+  top: 50px;
+  left: 180px;
+  width:80px;
+  height:110px;
+}
+
+.image1_3 {
+  position: absolute;
+  top: 50px;
+  left: 280px;
+  width:80px; 
+  height:110px;
+}
+.image1_4 {
+  position: absolute;
+  top: 50px;
+  left: 380px;
+  width:80px; 
+  height:110px;
+}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 767px){
+	.image1_1 {
+  position: absolute;
+  top: 35px;
+  left: 50px;
+  width:60px; 
+  height:90px;
+}
+	
+  .image1_2 {
+  position: absolute;
+  top: 35px;
+  left: 135px;
+  width:60px; 
+  height:90px;
+}
+
+.image1_3 {
+  position: absolute;
+  top: 35px;
+  left: 215px;
+  width:60px; 
+  height:90px;
+}
+.image1_4 {
+  position: absolute;
+  top: 35px;
+  left: 300px;
+  width:60px; 
+  height:90px;
+}
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (min-width: 414px) and (max-width: 599px) {
+	.image1_1 {
+  position: absolute;
+  top: 40px;
+  left: 45px;
+  width:45px; 
+  height:60px;
+}
+	
+  .image1_2 {
+  position: absolute;
+  top: 40px;
+  left: 110px;
+  width:45px; 
+  height:60px;
+}
+
+.image1_3 {
+  position: absolute;
+  top: 40px;
+  left: 175px;
+  width:45px; 
+  height:60px;
+}
+.image1_4 {
+  position: absolute;
+  top: 40px;
+  left: 240px;
+  width:45px; 
+  height:60px;
+}
+}
+
+/* Extra small devices (phones, 350px and down) */
+@media only screen and (min-width: 350px) and (max-width: 413px) {
+  .image1_1 {
+  position: absolute;
+  top: 40px;
+  left: 45px;
+  width:45px; 
+  height:60px;
+}
+  
+  .image1_2 {
+  position: absolute;
+  top: 40px;
+  left: 110px;
+  width:45px; 
+  height:60px;
+}
+
+.image1_3 {
+  position: absolute;
+  top: 40px;
+  left: 175px;
+  width:45px; 
+  height:60px;
+}
+.image1_4 {
+  position: absolute;
+  top: 40px;
+  left: 240px;
+  width:45px; 
+  height:60px;
+}
+}
+
+/* SECOND ROW */
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+
+@media only screen and (min-width: 1200px) {
+  .image2_1 {
+  position: absolute;
+  top: 380px;
+  left: 120px;
+  width:150px; 
+  height:210px;
+
+}
+  
+  .image2_2 {
+  position: absolute;
+  top: 380px;
+  left: 310px;
+  width:150px; 
+  height:210px;
+}
+
+.image2_3 {
+  position: absolute;
+  top: 380px;
+  left: 490px;
+  width:150px; 
+  height:210px;
+}
+.image2_4 {
+  position: absolute;
+  top: 380px;
+  left: 670px;
+  width:150px; 
+  height:210px;
+}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .image2_1 {
+  position: absolute;
+  top: 280px;
+  left: 85px;
+  width:110px; 
+  height:150px;
+
+}
+  
+  .image2_2 {
+  position: absolute;
+  top: 280px;
+  left: 220px;
+  width:110px; 
+  height:150px;
+}
+
+.image2_3 {
+  position: absolute;
+  top: 280px;
+  left: 350px;
+  width:110px; 
+  height:150px;
+}
+.image2_4 {
+  position: absolute;
+  top: 280px;
+  left: 490px;
+  width:110px; 
+  height:150px;
+}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px)  and (max-width: 991px) {
+  .image2_1 {
+  position: absolute;
+  top: 220px;
+  left: 80px;
+  width:80px; 
+  height:110px;
+
+}
+  
+  .image2_2 {
+  position: absolute;
+  top: 220px;
+  left: 180px;
+  width:80px;
+  height:110px;
+}
+
+.image2_3 {
+  position: absolute;
+  top: 220px;
+  left: 280px;
+  width:80px; 
+  height:110px;
+}
+.image2_4 {
+  position: absolute;
+  top: 220px;
+  left: 380px;
+  width:80px; 
+  height:110px;
+}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media only screen and (min-width: 600px) and (max-width: 767px){
+  .image2_1 {
+  position: absolute;
+  top: 170px;
+  left: 50px;
+  width:60px; 
+  height:90px;
+}
+  
+  .image2_2 {
+  position: absolute;
+  top: 170px;
+  left: 135px;
+  width:60px; 
+  height:90px;
+}
+
+.image2_3 {
+  position: absolute;
+  top: 170px;
+  left: 215px;
+  width:60px; 
+  height:90px;
+}
+.image2_4 {
+  position: absolute;
+  top: 170px;
+  left: 300px;
+  width:60px; 
+  height:90px;
+}
+}
+
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (min-width: 400px) and (max-width: 599px) {
+  .image2_1 {
+  position: absolute;
+  top: 145px;
+  left: 45px;
+  width:45px; 
+  height:60px;
+}
+  
+  .image2_2 {
+  position: absolute;
+  top: 145px;
+  left: 110px;
+  width:45px; 
+  height:60px;
+}
+
+.image2_3 {
+  position: absolute;
+  top: 145px;
+  left: 175px;
+  width:45px; 
+  height:60px;
+}
+.image2_4 {
+  position: absolute;
+  top: 145px;
+  left: 240px;
+  width:45px; 
+  height:60px;
+}
+}
+
+/* THIRD ROW */
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+
+@media only screen and (min-width: 1200px) {
+  .image3_1 {
+  position: absolute;
+  top: 670px;
+  left: 120px;
+  width:150px; 
+  height:210px;
+
+}
+  
+  .image3_2 {
+  position: absolute;
+  top: 670px;
+  left: 310px;
+  width:150px; 
+  height:210px;
+}
+
+.image3_3 {
+  position: absolute;
+  top: 670px;
+  left: 490px;
+  width:150px; 
+  height:210px;
+}
+.image3_4 {
+  position: absolute;
+  top: 670px;
+  left: 670px;
+  width:150px; 
+  height:210px;
+}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .image3_1 {
+  position: absolute;
+  top: 490px;
+  left: 85px;
+  width:110px; 
+  height:150px;
+
+}
+  
+  .image3_2 {
+  position: absolute;
+  top: 490px;
+  left: 220px;
+  width:110px; 
+  height:150px;
+}
+
+.image3_3 {
+  position: absolute;
+  top: 490px;
+  left: 350px;
+  width:110px; 
+  height:150px;
+}
+.image3_4 {
+  position: absolute;
+  top: 490px;
+  left: 490px;
+  width:110px; 
+  height:150px;
+}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px)  and (max-width: 991px) {
+  .image3_1 {
+  position: absolute;
+  top: 380px;
+  left: 80px;
+  width:80px; 
+  height:110px;
+
+}
+  
+  .image3_2 {
+  position: absolute;
+  top: 380px;
+  left: 180px;
+  width:80px;
+  height:110px;
+}
+
+.image3_3 {
+  position: absolute;
+  top: 380px;
+  left: 280px;
+  width:80px; 
+  height:110px;
+}
+.image3_4 {
+  position: absolute;
+  top: 380px;
+  left: 380px;
+  width:80px; 
+  height:110px;
+}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media only screen and (min-width: 600px) and (max-width: 767px){
+  .image3_1 {
+  position: absolute;
+  top: 300px;
+  left: 50px;
+  width:60px; 
+  height:90px;
+}
+  
+  .image3_2 {
+  position: absolute;
+  top: 300px;
+  left: 135px;
+  width:60px; 
+  height:90px;
+}
+
+.image3_3 {
+  position: absolute;
+  top: 300px;
+  left: 215px;
+  width:60px; 
+  height:90px;
+}
+.image3_4 {
+  position: absolute;
+  top: 300px;
+  left: 300px;
+  width:60px; 
+  height:90px;
+}
+}
+
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (min-width: 400px) and (max-width: 599px) {
+  .image3_1 {
+  position: absolute;
+  top: 253px;
+  left: 45px;
+  width:45px; 
+  height:60px;
+}
+  
+  .image3_2 {
+  position: absolute;
+  top: 253px;
+  left: 110px;
+  width:45px; 
+  height:60px;
+}
+
+.image3_3 {
+  position: absolute;
+  top: 253px;
+  left: 175px;
+  width:45px; 
+  height:60px;
+}
+.image3_4 {
+  position: absolute;
+  top: 253px;
+  left: 240px;
+  width:45px; 
+  height:60px;
+}
+}
